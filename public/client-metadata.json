@@ -1,0 +1,12 @@
+{
+  "client_id": "http://localhost",
+  "client_name": "My Local Bluesky App",
+  "client_uri": "http://127.0.0.1:5173",
+  "redirect_uris": ["http://127.0.0.1:5173/"],
+  "scope": "atproto transition:generic repo:app.piano.user.lesson?action=create",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "application_type": "web",
+  "dpop_bound_access_tokens": true
+}
